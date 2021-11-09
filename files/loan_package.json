@@ -1,0 +1,73 @@
+{
+    "request_id": "SPO1571818932533",
+    "channel": "DSA",
+    "partner_code": "SPO",
+    "dsa_agent_code": "DSAMKK1233",
+    "customer_name": "ho va ten",
+    "gender": "M",
+    "date_of_birth": "26-03-1981",
+    "identity_card_id": "054334333",
+    "issue_date": "01-01-2015",
+    "issue_place": "VIP44",
+    "phone_number": "0543343334",
+    "email": "hang.le@digitel.com.vn",
+    "tem_province": "54",
+    "tem_district": "564",
+    "tem_ward": "22267",
+    "tem_address": "3838514908",
+    "job_type": "RPT",
+    "employment_type": "E",
+    "product_type": "13008",
+    "loan_amount": "15000000",
+    "loan_tenor": "12",
+    "permanent_province": "54",
+    "permanent_district": "560",
+    "permanent_ward": "22168",
+    "permanent_address": "3838514908",
+    "married_status": "M",
+    "disbursement_method": "cash",
+    "beneficiary_name": "NGUYEN VAN A",
+    "bank_code": null,
+    "bank_branch_code": null,
+    "bank_account": "02358237457",
+    "monthly_income": "8000000",
+    "other_income": "50000000",
+    "monthly_expense": "5800000",
+    "workplace_name": "hnc",
+    "workplace_province": "54",
+    "workplace_district": "564",
+    "workplace_ward": "22291",
+    "workplace_address": "3838514908",
+    "loan_purpose": "HR",
+    "relation_1": "RHH",
+    "relation_1_name": "ho va ten mot",
+    "relation_1_phone_number": "0544444444",
+    "relation_2": "HW",
+    "relation_2_name": "ho ten hai",
+    "relation_2_phone_number": "0543333333",
+    "timestamp": 1616732563,
+    "list_doc_collecting": [
+        {
+            "file_type": "SFRB",
+            "file_name": "SFRB_054334333_0543343334_SPO1571818922533.jpg"
+        },
+        {
+            "file_type": "SDRL",
+            "file_name": "SDRL_054334333_0543343334_SPO1571818922533.jpg"
+        },
+        {
+            "file_type": "SBAS",
+            "file_name": "SBAS_054334333_0543343334_SPO1571818922533.jpg"
+        },
+        {
+            "file_type": "SHIC",
+            "file_name": "SHIC_054334333_0543343334_SPO1571818922533.jpg"
+        },
+        {
+            "file_type": "SPID",
+            "file_name": "SPID_054334333_0543343334_SPO1571818922533.jpg"
+        }
+    ],
+    "img_id_card": "PID_054334333_0543343334_SPO1571818922533.jpg",
+    "img_selfie": "PIC_054334333_0543343334_SPO1571818922533.jpg"
+}

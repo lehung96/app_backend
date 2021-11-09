@@ -1,0 +1,38 @@
+{
+    "code": "VALIDATED",
+    "message": "Your loan application has been validated with offers.",
+    "data": {
+        "request_id": "SPO1571818932534",
+        "partner_code": "SPO",
+        "proposal_id": null,
+        "contract_number": "1234567889",
+        "reject_reason": "KYC",
+        "offer_list": [
+            {
+                "offer_id": "2419120",
+                "offer_amount": 18000000,
+                "interest_rate": 59,
+                "monthly_installment": 1536000,
+                "tenor": 18,
+                "min_financed_amount": null,
+                "max_financed_amount": null,
+                "offer_var": 13407,
+                "offer_type": "M",
+                "insurance_list": [
+                    {
+                        "type": "BASC",
+                        "amount": 1080000,
+                        "percent_insurance": 6,
+                        "base_calculation": "RA"
+                    },
+                    {
+                        "type": "PREM",
+                        "amount": 1440000,
+                        "percent_insurance": 8,
+                        "base_calculation": "RA"
+                    }
+                ]
+            }
+        ]
+    }
+}

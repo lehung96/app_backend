@@ -1,0 +1,30 @@
+version: "3.8"
+services:
+  postgres:
+    image: postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: asd
+    ports: 
+      - '5432:5432'
+    volumes:
+      - ec-db:/var/lib/postgresql/data
+      - ./files/:/docker-entrypoint-initdb.d/
+
+  ec:
+    build:
+      context: .
+    environment:
+      DB_SCHEMA: ec
+      DB_USER: postgres
+      DB_PASSWORD: asd
+      DB_HOST: postgres
+    depends_on:
+      - postgres
+    ports:
+      - '3001:3001'
+    volumes:
+      - ./:/usr/src/app
+        
+volumes:
+    ec-db:

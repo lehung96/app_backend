@@ -1,0 +1,169 @@
+    1) Api get token 
+    url: https://103.146.18.10/api/uaa/oauth/token?grant_type=client_credentials
+    method: post
+    auth: với username: dsa_mobile_client, và password: te4vOqxJ0YAjcqfwvlAhN58lGVlbpowK
+    var axios = require('axios');
+    var config = {
+    method: 'post',
+    url: 'https://103.146.18.10/api/uaa/oauth/token?grant_type=client_credentials',
+    headers: { 
+        'Authorization': 'Basic ZHNhX21vYmlsZV9jbGllbnQ6dGU0dk9xeEowWUFqY3Fmd3ZsQWhONThsR1ZsYnBvd0s='
+    }
+    };
+
+    axios(config)
+    .then(function (response) {
+    console.log(JSON.stringify(response.data));
+    })
+    .catch(function (error) {
+    console.log(error);
+    });
+
+    Response
+    {
+        "access_token": "5ddf71d4-cc60-4bf0-8ef1-dc9c16dc796d",
+        "token_type": "bearer",
+        "expires_in": 213,
+        "scope": "product_list eligible_check dsa_send_loan_application dsa_get_offer dsa_select_offer"
+    }
+
+    3) Api get product field
+    url: https://103.146.18.10/api/loanServices/v1/product-list
+    method: post
+    body request: 
+    {
+    "request_id": "12ss33",
+    "channel":"DSA",
+    "partner": "TSO",
+    "product_linne":"BUSINESS"  
+    }
+    Authorization: Bearer access_token
+
+    4) Api get product list
+    url: https://103.146.18.10/api/loanServices/v1/full-field-info-by-product-code
+    method: post
+    body request: 
+    {
+    "request_id": "1233",
+    "client_id": "ECC0791820097091608000043096",
+	"channel": "DSA",
+	"partner": "TSO"
+    }   
+    Authorization: Bearer access_token
+    
+
+    5) Api CHECK_ELIGIBLE
+    url: hhttps://103.146.18.10/api/eligibleService/v1/eligible/check
+    method: post
+    body request: 
+    {
+    "request_id": "DSA123452324494c05",
+    "channel": "DSA",
+    "partner_code": "TSO",
+    "dsa_agent_code":"tuan.thai",
+    "identity_card_id":"245262203",
+    "date_of_birth":"23-05-1996",
+    "customer_name": "Le Quang Dang",
+    "issue_date": "24-11-2016",
+    "phone_number": "xxxx",
+    "issue_place": "VIP15",
+    "email": "xxxx@gmail.com"
+}
+    Authorization: Bearer access_token
+
+
+    6) Api get product list
+    url: https://103.146.18.10/api/loanServices/v1/full-field-info-by-product-code
+    method: post
+    body request: 
+    {
+    "request_id": "1233",
+    "client_id": "ECC0791820097091608000043096",
+	"channel": "DSA",
+	"partner": "TSO"
+    }   
+    Authorization: Bearer access_token
+    
+
+    7) Api send loan
+    url: https://103.146.18.10/api/loanRequestServices/v1/dsa/send-loan-application
+    method: post
+    body request: 
+    {
+    "request_id": "DGT1616d7325d6s3",
+    "channel": "DSA",
+    "partner_code": "TSO",
+    "dsa_agent_code": "tuan.thai",
+    "customer_name": "ho va ten",
+    "gender": "M",
+    "date_of_birth": "26-03-1981",
+    "identity_card_id": "054334333",
+    "issue_date": "01-01-2015",
+    "issue_place": "VIP44",
+    "phone_number": "0543343334",
+    "email": "hang.le@digitel.com.vn",
+    "tem_province": "54",
+    "tem_district": "564",
+    "tem_ward": "22267",
+    "tem_address": "dia chi tam tru",
+    "job_type": "RPT",
+    "employment_type": "E",
+    "product_type": "13008",
+    "loan_amount": "15000000",
+    "loan_tenor": "12",
+    "permanent_province": "54",
+    "permanent_district": "560",
+    "permanent_ward": "22168",
+    "permanent_address": "dia chi thuong tru",
+    "married_status": "M",
+    "disbursement_method": "cash",
+    "beneficiary_name": "",
+    "bank_code": null,
+    "bank_branch_code": null,
+    "bank_account": "",
+    "monthly_income": "8000000",
+    "other_income": "",
+    "monthly_expense": "5800000",
+    "workplace_name": "hnc",
+    "workplace_province": "54",
+    "workplace_district": "564",
+    "workplace_ward": "22291",
+    "workplace_address": "dia chi lam viec",
+    "loan_purpose": "HR",
+    "relation_1": "RHH",
+    "relation_1_name": "ho va ten mot",
+    "relation_1_phone_number": "0544444444",
+    "relation_2": "HW",
+    "relation_2_name": "ho ten hai",
+    "relation_2_phone_number": "0543333333",
+    "timestamp": 1616732563,
+    "doc_collecting_list": [
+        {
+            "file_type": "SFRB",
+            "file_name": "SFRB_054334333_0543343334_DGT1616732563.pdf"
+        },
+        {
+            "file_type": "SDRL",
+            "file_name": "SDRL_054334333_0543343334_DGT1616732563.pdf"
+        },
+        {
+            "file_type": "SBAS",
+            "file_name": "SBAS_054334333_0543343334_DGT1616732563.pdf"
+        },
+        {
+            "file_type": "SHIC",
+            "file_name": "SHIC_054334333_0543343334_DGT1616732563.pdf"
+        },
+        {
+            "file_type": "SPID",
+            "file_name": "SPID_054334333_0543343334_DGT1616732563.pdf"
+        }
+    ],
+    "img_id_card": "PID_054334333_0543343334_DGT1616732563.pdf",
+    "img_selfie": "PIC_054334333_0543343334_DGT1616732563.pdf"
+}email": "xxxx@gmail.com"
+}
+    Authorization: Bearer access_token
+
+
+ Trước khi gọi api 2,3,4,5,6,7 thì phải gọi api số trước để tạo access_token để truyền vào các api kia

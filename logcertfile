@@ -1,0 +1,93 @@
+CONNECTED(00000124)
+---
+Certificate chain
+ 0 s:C = VN, ST = Ho Chi Minh, L = Ho Chi Minh, OU = IT Department, O = C\C3\B4ng ty T\C3\A0i Ch\C3\ADnh C\E1\BB\95 ph\E1\BA\A7n \C4\90i\E1\BB\87n L\E1\BB\B1c \E2\80\93 CN Th\C3\A0nh ph\E1\BB\91 H\E1\BB\93 Ch\C3\AD Minh, CN = *.easycredit.vn
+   i:C = BE, O = GlobalSign nv-sa, CN = GlobalSign RSA OV SSL CA 2018
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIGkDCCBXigAwIBAgIMEgZmlugDF1mo+ZYMMA0GCSqGSIb3DQEBCwUAMFAxCzAJ
+BgNVBAYTAkJFMRkwFwYDVQQKExBHbG9iYWxTaWduIG52LXNhMSYwJAYDVQQDEx1H
+bG9iYWxTaWduIFJTQSBPViBTU0wgQ0EgMjAxODAeFw0yMDAzMjAwNjM2MDJaFw0y
+MTA1MDYwOTQ2NDFaMIHHMQswCQYDVQQGEwJWTjEUMBIGA1UECAwLSG8gQ2hpIE1p
+bmgxFDASBgNVBAcMC0hvIENoaSBNaW5oMRYwFAYDVQQLDA1JVCBEZXBhcnRtZW50
+MVowWAYDVQQKDFFDw7RuZyB0eSBUw6BpIENow61uaCBD4buVIHBo4bqnbiDEkGnh
+u4duIEzhu7FjIOKAkyBDTiBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgxGDAW
+BgNVBAMMDyouZWFzeWNyZWRpdC52bjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC
+AQoCggEBAL+TORX1gwZfC2LNml3pYPrBIYqv5pd7LiA/3hEHsiyLs6VuF+GkenMq
+m6VfVala/MlpKEbz3wtQVfyPC9HH+NxXAtaZyOSwhVTlrLKuFwvm62S4yWV9KcGD
+2y+4Gg+qhqtGfyCBZCBOvCvwDxrwR7U595UIGt25V3oMGLe3KFHbzMcZyqo1QqM7
+8sZIyUpNKV6bySgx1/e3J6eAhPdhgD5PBPmA1pgQmdTepgwNnv6Iry5qa9YY0SCE
+nV3ADEGzJw1bTWFFyxC4IWzZcBhJcsTaxuJFcvxHfPc/BYEc3N8/qaAHxy3IPLN1
+H+3qa3GOiYpAkA5i5RqOcgzrFAO1JosCAwEAAaOCAvAwggLsMA4GA1UdDwEB/wQE
+AwIFoDCBjgYIKwYBBQUHAQEEgYEwfzBEBggrBgEFBQcwAoY4aHR0cDovL3NlY3Vy
+ZS5nbG9iYWxzaWduLmNvbS9jYWNlcnQvZ3Nyc2FvdnNzbGNhMjAxOC5jcnQwNwYI
+KwYBBQUHMAGGK2h0dHA6Ly9vY3NwLmdsb2JhbHNpZ24uY29tL2dzcnNhb3Zzc2xj
+YTIwMTgwVgYDVR0gBE8wTTBBBgkrBgEEAaAyARQwNDAyBggrBgEFBQcCARYmaHR0
+cHM6Ly93d3cuZ2xvYmFsc2lnbi5jb20vcmVwb3NpdG9yeS8wCAYGZ4EMAQICMAkG
+A1UdEwQCMAAwfwYDVR0RBHgwdoIPKi5lYXN5Y3JlZGl0LnZughFvd2EuZWFzeWNy
+ZWRpdC52boISbWFpbC5lYXN5Y3JlZGl0LnZughphdXRvZGlzY292ZXIuZWFzeWNy
+ZWRpdC52boIRd3d3LmVhc3ljcmVkaXQudm6CDWVhc3ljcmVkaXQudm4wHQYDVR0l
+BBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMB8GA1UdIwQYMBaAFPjvf/LNeGeo3m+P
+JI2I8YcDArPrMB0GA1UdDgQWBBRkx9r0ABjs33Q6xn8ethAcwCRlZzCCAQQGCisG
+AQQB1nkCBAIEgfUEgfIA8AB2AG9Tdqwx8DEZ2JkApFEV/3cVHBHZAsEAKQaNsgia
+N9kTAAABcPan7F0AAAQDAEcwRQIgGm6L5furggailmc66bGP+f+M308L1r9vaq3D
+v/asZKcCIQDymdwEcnnwKrlMFVurHzdWWz/GXcaVE4eAXRDDWJer0gB2AO5Lvbd1
+zmC64UJpH6vhnmajD35fsHLYgwDEe4l6qP3LAAABcPan7E8AAAQDAEcwRQIgf/Ey
+MkPrSLllM3bDPwlMTBHQFDbmgsNbZsXiNe8qQUgCIQDrU3Uh6bXR9ZMPLTUH8Yao
+2qFXA/WosNaCLoAiM/790jANBgkqhkiG9w0BAQsFAAOCAQEAXZVKEOJouLle45rW
+M/XCtuYwWGhDOq961S14345wCMQUims0QQKu7QJj7ih7b0NqlqU+B7iotRZKL/ZL
+PFU63YfLlC4HFCtX1q8GlalJnF1yrZ/z200IU/r8RI+DZVxLaTmS465c1+0AtD6i
+5OJS3lg3w839Wor7B1ynGs3onF2uVpdOgsCKUxgrFaO7gq/6Y1uV0wZvTk3ZXS3L
+ijtOq839KffWEsgdJlUVDqxNYgApVBAMTFptAUOefsiHomYEbPnr+4wWYbcjZYUH
+t1b/bJv7NbiTR2hMMlhsLutWEm8lK8ixvgBTkyz4aVK/TL1PrxlxA129sESJphnK
+niGFEQ==
+-----END CERTIFICATE-----
+subject=C = VN, ST = Ho Chi Minh, L = Ho Chi Minh, OU = IT Department, O = C\C3\B4ng ty T\C3\A0i Ch\C3\ADnh C\E1\BB\95 ph\E1\BA\A7n \C4\90i\E1\BB\87n L\E1\BB\B1c \E2\80\93 CN Th\C3\A0nh ph\E1\BB\91 H\E1\BB\93 Ch\C3\AD Minh, CN = *.easycredit.vn
+
+issuer=C = BE, O = GlobalSign nv-sa, CN = GlobalSign RSA OV SSL CA 2018
+
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: RSA
+Server Temp Key: ECDH, P-256, 256 bits
+---
+SSL handshake has read 2370 bytes and written 441 bytes
+Verification error: unable to verify the first certificate
+---
+New, TLSv1.2, Cipher is ECDHE-RSA-AES256-GCM-SHA384
+Server public key is 2048 bit
+Secure Renegotiation IS supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+SSL-Session:
+    Protocol  : TLSv1.2
+    Cipher    : ECDHE-RSA-AES256-GCM-SHA384
+    Session-ID: C8005FF555B78613654325783A68D3E467EBF2942F2AA5B4588CFABEF72CA015
+    Session-ID-ctx: 
+    Master-Key: BDF958C8A51568B24B21B82F830D4000E6D5C4B4093655B5AEF2247413C8212ADBF0681950D49732F4E9B92EA4925843
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    TLS session ticket lifetime hint: 300 (seconds)
+    TLS session ticket:
+    0000 - 75 f6 84 9c c8 7d ca 0f-db 7e 3a c7 f4 b3 a1 5a   u....}...~:....Z
+    0010 - a2 7d bb 2b 67 6d bf 9a-5c e1 1d 25 34 31 7c 52   .}.+gm..\..%41|R
+    0020 - d3 e8 7a 83 3f 30 fc 13-7f 14 de cc 1a 0b b2 d2   ..z.?0..........
+    0030 - 17 30 fb 41 35 cb e0 b4-88 7d 62 40 9e 92 e2 82   .0.A5....}b@....
+    0040 - 8e d7 5d 28 0b 67 8e fc-93 9f 4c 10 09 c5 9e 32   ..](.g....L....2
+    0050 - 53 30 6f f0 40 a7 ab a1-f5 b3 9c 33 cc a0 82 ba   S0o.@......3....
+    0060 - 94 15 bd d0 64 02 23 cb-2f fc 8b 7f e3 50 20 c1   ....d.#./....P .
+    0070 - db 68 dd 68 34 ac 91 4e-49 1a c4 4b af 34 0d 13   .h.h4..NI..K.4..
+    0080 - 84 2d 93 92 55 0a 9e a4-86 a1 10 f0 96 9b 66 95   .-..U.........f.
+    0090 - 93 08 0d d9 12 33 5b 0e-13 e4 30 5a e3 37 6b eb   .....3[...0Z.7k.
+    00a0 - 97 7d 9a 0c 9b 7a 86 ef-a3 a9 63 9a 7c 8b fa 39   .}...z....c.|..9
+    00b0 - 25 57 47 c9 d4 dc 6b c2-9e 56 9d 7e dd d2 71 21   %WG...k..V.~..q!
+
+    Start Time: 1619626858
+    Timeout   : 7200 (sec)
+    Verify return code: 21 (unable to verify the first certificate)
+    Extended master secret: no
+---
